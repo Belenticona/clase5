@@ -1,0 +1,163 @@
+.padre
+{
+    background-color: aqua;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 20% 30% 30% ;
+    grid-template-rows: 250px 100px 100px 100px ;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.caja0
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+    grid-column: 1/5;
+    
+}
+.caja1
+{
+    background-color: blue ;
+    /*width: 150px;
+    height: 150px;*/
+   
+    border-style:solid;
+    border-color: black;
+    font-size: 50px;
+    grid-column: 1/2;
+}
+.caja2
+{
+    background-color:blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 2/3;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.caja3
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+   grid-column: 3/4;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.caja4
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 1/2;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.caja5
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 2/4;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.caja6
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 1/1;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.caja7
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 2/4;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+}
+.caja8
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 1/1; 
+    font-size: 40px;
+
+}
+
+.caja10
+{
+    background-color: blue;
+    /*width: 1050px;
+    height: 150px;*/
+    grid-column: 2/4;
+    border-style:solid;
+    border-color: black;
+    font-size: 40px;
+
+}
+.hijo
+{
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.caj1
+{
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+     height: 150px;
+     height: 300px;
+}
+.caj2
+{
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+     height: 150px;
+     height: 300px;
+}
+.caj3
+{
+    background-color: bisque;
+    padding: 30px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+     height: 150px;
+     height: 300px;
+}
+
